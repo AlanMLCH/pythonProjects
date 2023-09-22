@@ -1,0 +1,33 @@
+2023-09-05 10:05:40,659 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-05 10:05:40,660 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Configure stats pid to 494604
+2023-09-05 10:05:40,661 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Alan Lopez\.config\wandb\settings
+2023-09-05 10:05:40,661 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Alan Lopez\pythonProjects\ML\Databricks\wandb\settings
+2023-09-05 10:05:40,661 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-05 10:05:40,661 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-05 10:05:40,664 INFO    MainThread:494604 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': '..\\MLPipelines\\MLProjects\\wandbiases.py', 'program': 'C:\\Users\\Alan Lopez\\pythonProjects\\ML\\MLPipelines\\MLProjects\\wandbiases.py'}
+2023-09-05 10:05:40,666 INFO    MainThread:494604 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\Alan Lopez\pythonProjects\ML\Databricks\wandb\run-20230905_100540-1nx9r0pp\logs\debug.log
+2023-09-05 10:05:40,667 INFO    MainThread:494604 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\Alan Lopez\pythonProjects\ML\Databricks\wandb\run-20230905_100540-1nx9r0pp\logs\debug-internal.log
+2023-09-05 10:05:40,667 INFO    MainThread:494604 [wandb_init.py:init():564] calling init triggers
+2023-09-05 10:05:40,667 INFO    MainThread:494604 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'layer_1': 512, 'activation_1': 'relu', 'dropout': 0.5670177121994723, 'layer_2': 10, 'activation_2': 'softmax', 'optimizer': 'sgd', 'loss': 'sparse_categorical_crossentropy', 'metric': 'accuracy', 'epoch': 8, 'batch_size': 256}
+2023-09-05 10:05:40,668 INFO    MainThread:494604 [wandb_init.py:init():613] starting backend
+2023-09-05 10:05:40,668 INFO    MainThread:494604 [wandb_init.py:init():617] setting up manager
+2023-09-05 10:05:40,684 INFO    MainThread:494604 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-09-05 10:05:40,691 INFO    MainThread:494604 [wandb_init.py:init():623] backend started and connected
+2023-09-05 10:05:40,700 INFO    MainThread:494604 [wandb_init.py:init():714] updated telemetry
+2023-09-05 10:05:40,704 INFO    MainThread:494604 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-05 10:05:41,165 INFO    MainThread:494604 [wandb_run.py:_on_init():2180] communicating current version
+2023-09-05 10:05:41,365 INFO    MainThread:494604 [wandb_run.py:_on_init():2189] got version response 
+2023-09-05 10:05:41,365 INFO    MainThread:494604 [wandb_init.py:init():798] starting run threads in backend
+2023-09-05 10:05:41,576 INFO    MainThread:494604 [wandb_run.py:_console_start():2159] atexit reg
+2023-09-05 10:05:41,577 INFO    MainThread:494604 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-09-05 10:05:41,582 INFO    MainThread:494604 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-09-05 10:05:41,584 INFO    MainThread:494604 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-09-05 10:05:41,586 INFO    MainThread:494604 [wandb_init.py:init():839] run started, returning control to user process
+2023-09-05 10:06:47,292 INFO    MainThread:494604 [wandb_run.py:_finish():1894] finishing run alanmlch/my-awesome-project/1nx9r0pp
+2023-09-05 10:06:47,293 INFO    MainThread:494604 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-05 10:06:47,296 INFO    MainThread:494604 [wandb_run.py:_restore():2111] restore
+2023-09-05 10:06:47,296 INFO    MainThread:494604 [wandb_run.py:_restore():2117] restore done
+2023-09-05 10:06:55,898 INFO    MainThread:494604 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-05 10:06:55,901 INFO    MainThread:494604 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-05 10:06:55,938 INFO    MainThread:494604 [wandb_run.py:_footer_sync_info():3440] logging synced files

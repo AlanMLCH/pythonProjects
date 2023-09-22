@@ -1,0 +1,31 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 1s 0us/step
+Epoch 1/8
+
+
+47/47 [==============================] - ETA: 0s - loss: 2.1588 - accuracy: 0.2342
+47/47 [==============================] - 18s 342ms/step - loss: 2.1588 - accuracy: 0.2342 - val_loss: 1.8518 - val_accuracy: 0.5920
+Epoch 2/8
+47/47 [==============================] - ETA: 0s - loss: 1.7633 - accuracy: 0.4876
+47/47 [==============================] - 7s 150ms/step - loss: 1.7633 - accuracy: 0.4876 - val_loss: 1.5133 - val_accuracy: 0.7140
+Epoch 3/8
+47/47 [==============================] - ETA: 0s - loss: 1.4785 - accuracy: 0.6122
+47/47 [==============================] - 8s 170ms/step - loss: 1.4785 - accuracy: 0.6122 - val_loss: 1.2647 - val_accuracy: 0.7620
+Epoch 4/8
+46/47 [============================>.] - ETA: 0s - loss: 1.2683 - accuracy: 0.6809
+47/47 [==============================] - 7s 141ms/step - loss: 1.2670 - accuracy: 0.6800 - val_loss: 1.0824 - val_accuracy: 0.7860
+Epoch 5/8
+46/47 [============================>.] - ETA: 0s - loss: 1.1223 - accuracy: 0.7140
+47/47 [==============================] - 6s 134ms/step - loss: 1.1201 - accuracy: 0.7148 - val_loss: 0.9506 - val_accuracy: 0.8000
+Epoch 6/8
+46/47 [============================>.] - ETA: 0s - loss: 1.0086 - accuracy: 0.7386
+47/47 [==============================] - 6s 130ms/step - loss: 1.0084 - accuracy: 0.7379 - val_loss: 0.8530 - val_accuracy: 0.8160
+Epoch 7/8
+46/47 [============================>.] - ETA: 0s - loss: 0.9181 - accuracy: 0.7615
+
+[34m[1mwandb[39m[22m: Adding directory to artifact (.\models)... Done. 0.1s
+47/47 [==============================] - 6s 130ms/step - loss: 0.9173 - accuracy: 0.7616 - val_loss: 0.7792 - val_accuracy: 0.8160
+Epoch 8/8
+
+
+47/47 [==============================] - 6s 134ms/step - loss: 0.8545 - accuracy: 0.7713 - val_loss: 0.7235 - val_accuracy: 0.8200

@@ -1,0 +1,36 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-09-05T16:05:41.453660",
+    "startedAt": "2023-09-05T16:05:40.649611",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Alan Lopez\\pythonProjects\\ML\\MLPipelines\\MLProjects\\wandbiases.py",
+    "codePath": "..\\MLPipelines\\MLProjects\\wandbiases.py",
+    "host": "DESKTOP-7EE1AQC",
+    "username": "Alan Lopez",
+    "executable": "C:\\Conda\\envs\\scikitlearn\\python.exe",
+    "cpu_count": 10,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 1300.0,
+        "min": 0.0,
+        "max": 1300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1300.0,
+            "min": 0.0,
+            "max": 1300.0
+        }
+    ],
+    "disk": {
+        "total": 456.97558212280273,
+        "used": 235.7820701599121
+    },
+    "memory": {
+        "total": 23.692127227783203
+    }
+}
